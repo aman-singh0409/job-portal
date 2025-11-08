@@ -71,7 +71,7 @@ const Footer = () => {
               <FaEnvelope />
             </a>
             <a
-              href="creater.jsx"
+              href="https://abhisheksingh555.github.io/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-400 duration-200"
