@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         {/* Social Media Section */}
-        <div>
+        <div className="flex flex-col items-center">
           <h3 className="text-lg font-semibold text-white mb-3">Connect With Me</h3>
           <div className="flex space-x-5 text-xl">
             <a
@@ -69,14 +69,6 @@ const Footer = () => {
               className="hover:text-indigo-400 duration-200"
             >
               <FaEnvelope />
-            </a>
-            <a
-              href="https://abhisheksingh555.github.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-indigo-400 duration-200"
-            >
-              <FaGlobe />
             </a>
           </div>
         </div>
@@ -104,7 +96,7 @@ const Footer = () => {
           <Link to="/TermsofService" className="hover:text-indigo-400">
             Terms of Service
           </Link>
-        </p>
+        </p> 
       </div>
     </footer>
   );
