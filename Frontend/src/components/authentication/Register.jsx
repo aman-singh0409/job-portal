@@ -92,7 +92,7 @@ const Register = () => {
               value={input.fullname}
               name="fullname"
               onChange={changeEventHandler}
-              placeholder="John Doe"
+              placeholder="Enter your name"
             ></Input>
           </div>
           <div className="my-2">
@@ -102,7 +102,7 @@ const Register = () => {
               value={input.email}
               name="email"
               onChange={changeEventHandler}
-              placeholder="johndoe@gmail.com"
+              placeholder="Enter your email"
             ></Input>
           </div>
           <div className="my-2">
@@ -122,7 +122,7 @@ const Register = () => {
               value={input.pancard}
               name="pancard"
               onChange={changeEventHandler}
-              placeholder="ABCDEF1234G"
+              placeholder="Enter your PAN details"
             ></Input>
           </div>
           <div>
@@ -132,7 +132,7 @@ const Register = () => {
               value={input.adharcard}
               name="adharcard"
               onChange={changeEventHandler}
-              placeholder="123456789012"
+              placeholder="Enter your Adhar no."
             ></Input>
           </div>
           <div className="my-2">
@@ -142,7 +142,7 @@ const Register = () => {
               value={input.phoneNumber}
               name="phoneNumber"
               onChange={changeEventHandler}
-              placeholder="+1234567890"
+              placeholder="Enter your phone number"
             ></Input>
           </div>
           <div className="flex items-center justify-between">
